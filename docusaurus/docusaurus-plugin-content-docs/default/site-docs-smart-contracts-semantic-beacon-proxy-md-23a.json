@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Smart Contracts Semantic/BeaconProxy",
+  "id": "Smart Contracts Semantic/BeaconProxy",
+  "isDocsHomePage": false,
+  "title": "BeaconProxy",
+  "description": "This contract implements a proxy that gets the implementation address for each call from a .",
+  "source": "@site/docs/Smart Contracts Semantic/BeaconProxy.md",
+  "sourceDirName": "Smart Contracts Semantic",
+  "slug": "/Smart Contracts Semantic/BeaconProxy",
+  "permalink": "/docs/Smart Contracts Semantic/BeaconProxy",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Smart Contracts Semantic/BeaconProxy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "PoolLiquidityToken",
+    "permalink": "/docs/Smart Contracts Semantic/PoolLiquidityToken"
+  },
+  "next": {
+    "title": "UpgradeableBeacon",
+    "permalink": "/docs/Smart Contracts Semantic/UpgradeableBeacon"
+  }
+}

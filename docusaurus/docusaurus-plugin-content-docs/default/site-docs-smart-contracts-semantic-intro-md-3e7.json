@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Smart Contracts Semantic/intro",
+  "id": "Smart Contracts Semantic/intro",
+  "isDocsHomePage": false,
+  "title": "intro",
+  "description": "",
+  "source": "@site/docs/Smart Contracts Semantic/intro.md",
+  "sourceDirName": "Smart Contracts Semantic",
+  "slug": "/Smart Contracts Semantic/intro",
+  "permalink": "/docs/Smart Contracts Semantic/intro",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Smart Contracts Semantic/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ParamKeeper",
+    "permalink": "/docs/Smart Contracts Semantic/ParamKeeper"
+  },
+  "next": {
+    "title": "PoolLiquidityToken",
+    "permalink": "/docs/Smart Contracts Semantic/PoolLiquidityToken"
+  }
+}

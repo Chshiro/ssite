@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Smart Contracts Semantic/PoolLiquidityToken",
+  "id": "Smart Contracts Semantic/PoolLiquidityToken",
+  "isDocsHomePage": false,
+  "title": "PoolLiquidityToken",
+  "description": "Code",
+  "source": "@site/docs/Smart Contracts Semantic/PoolLiquidityToken.md",
+  "sourceDirName": "Smart Contracts Semantic",
+  "slug": "/Smart Contracts Semantic/PoolLiquidityToken",
+  "permalink": "/docs/Smart Contracts Semantic/PoolLiquidityToken",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Smart Contracts Semantic/PoolLiquidityToken.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ParamKeeper",
+    "permalink": "/docs/Smart Contracts Semantic/ParamKeeper"
+  },
+  "next": {
+    "title": "BeaconProxy",
+    "permalink": "/docs/Smart Contracts Semantic/BeaconProxy"
+  }
+}

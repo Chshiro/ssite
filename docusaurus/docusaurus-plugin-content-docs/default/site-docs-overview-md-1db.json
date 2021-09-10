@@ -1,0 +1,23 @@
+{
+  "unversionedId": "overview",
+  "id": "overview",
+  "isDocsHomePage": false,
+  "title": "overview",
+  "description": "",
+  "source": "@site/docs/overview.md",
+  "sourceDirName": ".",
+  "slug": "/overview",
+  "permalink": "/docs/overview",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/overview.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Overview",
+    "permalink": "/docs/Overview"
+  }
+}

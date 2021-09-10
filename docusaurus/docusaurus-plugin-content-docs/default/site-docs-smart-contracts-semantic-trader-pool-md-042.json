@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Smart Contracts Semantic/TraderPool",
+  "id": "Smart Contracts Semantic/TraderPool",
+  "isDocsHomePage": false,
+  "title": "TraderPool",
+  "description": "Code",
+  "source": "@site/docs/Smart Contracts Semantic/TraderPool.md",
+  "sourceDirName": "Smart Contracts Semantic",
+  "slug": "/Smart Contracts Semantic/TraderPool",
+  "permalink": "/docs/Smart Contracts Semantic/TraderPool",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Smart Contracts Semantic/TraderPool.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "TraderPoolFactory",
+    "permalink": "/docs/Smart Contracts Semantic/TraderPoolFactory"
+  }
+}

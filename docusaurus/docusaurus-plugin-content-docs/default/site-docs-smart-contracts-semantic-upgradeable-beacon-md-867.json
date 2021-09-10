@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Smart Contracts Semantic/UpgradeableBeacon",
+  "id": "Smart Contracts Semantic/UpgradeableBeacon",
+  "isDocsHomePage": false,
+  "title": "UpgradeableBeacon",
+  "description": "Code",
+  "source": "@site/docs/Smart Contracts Semantic/UpgradeableBeacon.md",
+  "sourceDirName": "Smart Contracts Semantic",
+  "slug": "/Smart Contracts Semantic/UpgradeableBeacon",
+  "permalink": "/docs/Smart Contracts Semantic/UpgradeableBeacon",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Smart Contracts Semantic/UpgradeableBeacon.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "BeaconProxy",
+    "permalink": "/docs/Smart Contracts Semantic/BeaconProxy"
+  },
+  "next": {
+    "title": "TraderPoolFactory",
+    "permalink": "/docs/Smart Contracts Semantic/TraderPoolFactory"
+  }
+}

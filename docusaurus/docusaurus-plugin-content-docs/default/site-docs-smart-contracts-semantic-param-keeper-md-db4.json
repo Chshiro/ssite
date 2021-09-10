@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Smart Contracts Semantic/ParamKeeper",
+  "id": "Smart Contracts Semantic/ParamKeeper",
+  "isDocsHomePage": false,
+  "title": "ParamKeeper",
+  "description": "Code",
+  "source": "@site/docs/Smart Contracts Semantic/ParamKeeper.md",
+  "sourceDirName": "Smart Contracts Semantic",
+  "slug": "/Smart Contracts Semantic/ParamKeeper",
+  "permalink": "/docs/Smart Contracts Semantic/ParamKeeper",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Smart Contracts Semantic/ParamKeeper.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Translate your site",
+    "permalink": "/docs/tutorial-extras/translate-your-site"
+  },
+  "next": {
+    "title": "PoolLiquidityToken",
+    "permalink": "/docs/Smart Contracts Semantic/PoolLiquidityToken"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "intro",
+        "href": "/docs/intro"
+      },
+      {
+        "type": "link",
+        "label": "Overview",
+        "href": "/docs/Overview"
+      },
+      {
+        "type": "category",
+        "label": "Tutorial - Basics",
+        "items": [
+          {
+            "type": "link",
+            "label": "Create a Page",
+            "href": "/docs/tutorial-basics/create-a-page"
+          },
+          {
+            "type": "link",
+            "label": "Create a Document",
+            "href": "/docs/tutorial-basics/create-a-document"
+          },
+          {
+            "type": "link",
+            "label": "Create a Blog Post",
+            "href": "/docs/tutorial-basics/create-a-blog-post"
+          },
+          {
+            "type": "link",
+            "label": "Markdown Features",
+            "href": "/docs/tutorial-basics/markdown-features"
+          },
+          {
+            "type": "link",
+            "label": "Deploy your site",
+            "href": "/docs/tutorial-basics/deploy-your-site"
+          },
+          {
+            "type": "link",
+            "label": "Congratulations!",
+            "href": "/docs/tutorial-basics/congratulations"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "link",
+        "label": "Getting-starting",
+        "href": "/docs/Getting-starting"
+      },
+      {
+        "type": "link",
+        "label": "Smart contracts map",
+        "href": "/docs/Smart contracts map"
+      },
+      {
+        "type": "category",
+        "label": "Tutorial - Extras",
+        "items": [
+          {
+            "type": "link",
+            "label": "Manage Docs Versions",
+            "href": "/docs/tutorial-extras/manage-docs-versions"
+          },
+          {
+            "type": "link",
+            "label": "Translate your site",
+            "href": "/docs/tutorial-extras/translate-your-site"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Smart Contracts Semantic",
+        "items": [
+          {
+            "type": "link",
+            "label": "ParamKeeper",
+            "href": "/docs/Smart Contracts Semantic/ParamKeeper"
+          },
+          {
+            "type": "link",
+            "label": "PoolLiquidityToken",
+            "href": "/docs/Smart Contracts Semantic/PoolLiquidityToken"
+          },
+          {
+            "type": "link",
+            "label": "BeaconProxy",
+            "href": "/docs/Smart Contracts Semantic/BeaconProxy"
+          },
+          {
+            "type": "link",
+            "label": "UpgradeableBeacon",
+            "href": "/docs/Smart Contracts Semantic/UpgradeableBeacon"
+          },
+          {
+            "type": "link",
+            "label": "TraderPoolFactory",
+            "href": "/docs/Smart Contracts Semantic/TraderPoolFactory"
+          },
+          {
+            "type": "link",
+            "label": "TraderPool",
+            "href": "/docs/Smart Contracts Semantic/TraderPool"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      }
+    ]
+  }
+}

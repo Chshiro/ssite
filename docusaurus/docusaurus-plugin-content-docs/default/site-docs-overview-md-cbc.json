@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Overview",
+  "id": "Overview",
+  "isDocsHomePage": false,
+  "title": "Overview",
+  "description": "Dexe",
+  "source": "@site/docs/Overview.md",
+  "sourceDirName": ".",
+  "slug": "/Overview",
+  "permalink": "/docs/Overview",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Overview.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "intro",
+    "permalink": "/docs/intro"
+  },
+  "next": {
+    "title": "Create a Page",
+    "permalink": "/docs/tutorial-basics/create-a-page"
+  }
+}

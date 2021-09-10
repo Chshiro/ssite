@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Smartcontractsmap",
+  "id": "Smartcontractsmap",
+  "isDocsHomePage": false,
+  "title": "Smartcontractsmap",
+  "description": "",
+  "source": "@site/docs/Smartcontractsmap.md",
+  "sourceDirName": ".",
+  "slug": "/Smartcontractsmap",
+  "permalink": "/docs/Smartcontractsmap",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Smartcontractsmap.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Getting-starting",
+    "permalink": "/docs/Getting-starting"
+  },
+  "next": {
+    "title": "Manage Docs Versions",
+    "permalink": "/docs/tutorial-extras/manage-docs-versions"
+  }
+}
