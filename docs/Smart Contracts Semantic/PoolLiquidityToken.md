@@ -1,9 +1,5 @@
----
-sidebar_position: 2
----
-
 ### *Code*
-### [PoolLiquidityToken.sol](https://github.com/dexe-network/dexe-asset-management/blob/js-tests-new-contract-with-pass/contracts/pool/PoolLiquidityTokenUpgradeable.sol)
+### [```PoolLiquidityToken.sol```](https://github.com/dexe-network/dexe-asset-management/blob/js-tests-new-contract-with-pass/contracts/pool/PoolLiquidityTokenUpgradeable.sol)
 #### *Parameter's table*
 <table class="iksweb">
 	<tbody>

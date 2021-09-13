@@ -1,9 +1,5 @@
----
-sidebar_position: 4
----
-
 ### *Code*
-### [UpgradeableBeacon.sol](https://github.com/dexe-network/dexe-asset-management/blob/js-tests-new-contract-with-pass/contracts/upgradeable/UpgradeableBeacon.sol)
+### [```UpgradeableBeacon.sol```](https://github.com/dexe-network/dexe-asset-management/blob/js-tests-new-contract-with-pass/contracts/upgradeable/UpgradeableBeacon.sol)
 #### *Parameter's table*
 <table class="iksweb">
 	<tbody>
@@ -15,7 +11,7 @@ sidebar_position: 4
 		<tr>
 			<td>address</td>
 			<td>beacon</td>
-			<td></td>
+			<td>address that can be used as a delegate call target</td>
 		</tr>
 	</tbody>
 </table>        
@@ -34,3 +30,7 @@ sidebar_position: 4
     function _setImplementation(address newImplementation) private {
 
     } 
+
+
+
+

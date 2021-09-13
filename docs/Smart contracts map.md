@@ -2,19 +2,32 @@
 sidebar_position: 3
 ---
 
-![Map](https://gblobscdn.gitbook.com/assets%2F-Mhotv2zTrDxVpUVbvU0%2F-MiwqyXlSKzS1o_TPNFx%2F-Miwr3e-PiViuzb9hNRM%2F%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5.png?alt=media&token=72e0b947-0699-4e64-bd30-8050f739d190)
+![Map](https://raw.githubusercontent.com/howl111/PlanOfStudy/main/DexeContractsMap.png)
 
-## [**ParamKeeper.sol**](http://localhost:3000/docs/Smart%20Contracts%20Semantic/ParamKeeper)
+[ParamKeeper.sol](https://github.com/howl111/PlanOfStudy/blob/main/ParamKeeper.md)
 
-## [**PoolLiquidityToken.sol**](http://localhost:3000/docs/Smart%20Contracts%20Semantic/PoolLiquidityToken)
+ - This contract implements the Manager's address, as well as checks incoming requests for compliance with the allocated roles, is an initializer when logging in.
 
-## [**UpgradeableBeacon.sol**](http://localhost:3000/docs/Smart%20Contracts%20Semantic/UpgradeableBeacon)
-### Description
+[PoolLiquidityToken.sol](https://github.com/howl111/PlanOfStudy/blob/main/PoolLiquidityToken.md)
 
-**```This contract is used in conjunction with one or more instances of {BeaconProxy.sol} to determine their implementation contract, which is where they will delegate all function calls. An owner is able to change the implementation the beacon points to, thus upgrading the proxies that use this beacon.```**
+ - This contract synchronizes the pool, initializes it, and uses the mint method to participate in creating a pair of pool tokens.
 
-## [**TraderPoolFactory.sol**](http://localhost:3000/docs/Smart%20Contracts%20Semantic/TraderPoolFactory)
+[BeaconProxy.sol](https://github.com/howl111/PlanOfStudy/blob/main/BeaconProxy.md)
 
-## [**TraderPool.sol**](http://localhost:3000/docs/Smart%20Contracts%20Semantic/TraderPool)
+ - This contract implements a proxy that gets the implementation address for each call from a {UpgradeableBeacon}.
 
-## [**BeaconProxy.sol**](http://localhost:3000/docs/Smart%20Contracts%20Semantic/BeaconProxy)
+[UpgradeableBeacon.sol](https://github.com/howl111/PlanOfStudy/blob/main/UpgradeableBeacon.md)
+
+ - This contract is used in conjunction with one or more instances of {BeaconProxy} to determine their implementation contract, which is where they will delegate all function calls. An owner is able to change the implementation the beacon points to, thus upgrading the proxies that use this beacon.
+
+[TraderPoolFactory.sol](https://github.com/howl111/PlanOfStudy/blob/main/TraderPoolFactory.md)
+
+ - This contract is a factory that initializes the input parameters for a new pool to create it, implementing a pair of tokens and interfaces.
+
+[TraderPool.sol](https://github.com/howl111/PlanOfStudy/blob/main/TraderPool.md)
+
+ - This contract defines pool objects and roles of pool participants, methods for pool management, as well as initialization of subpools for RiskyTokens and delegation of liquidity
+
+[Proxy.sol](https://github.com/howl111/PlanOfStudy/blob/main)
+
+ - This abstract contract provides a fallback function that delegates all calls to another contract using the EVM instruction delegatecall. We refer to the second contract as the implementation behind the proxy, and it has to be specified by overriding the virtual {_implementation} function. Additionally, delegation to the implementation can be triggered manually through the {_fallback} function, or to a different contract through the {_delegate} function. The success and return data of the delegated call will be returned back to the caller of the proxy.

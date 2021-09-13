@@ -1,16 +1,12 @@
----
-sidebar_position: 6
----
-
 ### *Code*
-### [TraderPool.sol](https://github.com/dexe-network/dexe-asset-management/blob/js-tests-new-contract-with-pass/contracts/TraderPoolUpgradable.sol)
+### [```TraderPool.sol```](https://github.com/dexe-network/dexe-asset-management/blob/js-tests-new-contract-with-pass/contracts/TraderPoolUpgradable.sol)
 #### *Parameter's table*
 <table class="iksweb">
 	<tbody>
 		<tr>
-			<td>Type</td>
-			<td>Name</td>
-			<td>Definition</td>
+			<th>Type</th>
+			<th>Name</th>
+			<th>Definition</th>
 		</tr>
 		<tr>
 			<td>address</td>
@@ -45,17 +41,17 @@ sidebar_position: 6
 		<tr>
 			<td>uint256</td>
 			<td>_commissions</td>
-			<td></td>
+			<td>Array of 3 commissions, specified in a form of natural fration each (i.e. nominator and denominator.). Format: [traderCommDenom, traderCommNom, investorCommDenom, investorCommNom, platformCommDenom, platformCommNom]</td>
 		</tr>
 		<tr>
 			<td>bool</td>
 			<td>_actual</td>
-			<td></td>
+			<td>flag for setting up "actual portfolio". Set to true to enable.</td>
 		</tr>
 		<tr>
 			<td>bool</td>
 			<td>_investorRestricted</td>
-			<td></td>
+			<td>flag to enable investor whitelist. Set to true to enable.</td>
 		</tr>
 	</tbody>
 </table>
@@ -63,15 +59,13 @@ sidebar_position: 6
 
 ### Imports
 
-​https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/structs/EnumerableSet.sol
+[EnumerableSet.sol](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/structs/EnumerableSet.sol)
 
-https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/IERC20.sol
+[IERC20.sol](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/IERC20.sol)
 
-https://github.com/OpenZeppelin/openzeppelin-contracts-upgradeable/blob/master/contracts/access/AccessControlUpgradeable.sol​
+[AccessControlUpgradeable.sol](https://github.com/OpenZeppelin/openzeppelin-contracts-upgradeable/blob/master/contracts/access/AccessControlUpgradeable.sol%E2%80%8B)
 
-​https://github.com/OpenZeppelin/openzeppelin-contracts-upgradeable/blob/master/contracts/security/PausableUpgradeable.sol 
-(ссылка с палёным путем)
-
+[PausableUpgradeable.sol](https://github.com/OpenZeppelin/openzeppelin-contracts-upgradeable/blob/master/contracts/security/PausableUpgradeable.sol)
 ​
 ​
 ```jsx title="text"
@@ -178,9 +172,9 @@ https://github.com/OpenZeppelin/openzeppelin-contracts-upgradeable/blob/master/c
 <table class="iksweb">
 	<tbody>
 		<tr>
-			<td>Type</td>
-			<td>Name</td>
-			<td>Definition</td>
+			<th>Type</th>
+			<th>Name</th>
+			<th>Definition</th>
 		</tr>
 		<tr>
 			<td>address</td>
@@ -222,9 +216,9 @@ https://github.com/OpenZeppelin/openzeppelin-contracts-upgradeable/blob/master/c
 <table class="iksweb">
 	<tbody>
 		<tr>
-			<td>Type</td>
-			<td>Name</td>
-			<td>Definition</td>
+			<th>Type</th>
+			<th>Name</th>
+			<th>Definition</th>
 		</tr>
 		<tr>
 			<td>address</td>
@@ -268,9 +262,9 @@ https://github.com/OpenZeppelin/openzeppelin-contracts-upgradeable/blob/master/c
 <table class="iksweb">
 	<tbody>
 		<tr>
-			<td>Type</td>
-			<td>Name</td>
-			<td>Definition</td>
+			<th>Type</th>
+			<th>Name</th>
+			<th>Definition</th>
 		</tr>
 		<tr>
 			<td>uint16</td>
@@ -303,9 +297,9 @@ https://github.com/OpenZeppelin/openzeppelin-contracts-upgradeable/blob/master/c
 <table class="iksweb">
 	<tbody>
 		<tr>
-			<td>Type</td>
-			<td>Name</td>
-			<td>Definition</td>
+			<th>Type</th>
+			<th>Name</th>
+			<th>Definition</th>
 		</tr>
 		<tr>
 			<td>address</td>
@@ -323,9 +317,9 @@ https://github.com/OpenZeppelin/openzeppelin-contracts-upgradeable/blob/master/c
 <table class="iksweb">
 	<tbody>
 		<tr>
-			<td>Type</td>
-			<td>Name</td>
-			<td>Definition</td>
+			<th>Type</th>
+			<th>Name</th>
+			<th>Definition</th>
 		</tr>
 		<tr>
 			<td>uint256</td>
@@ -396,9 +390,9 @@ https://github.com/OpenZeppelin/openzeppelin-contracts-upgradeable/blob/master/c
 <table class="iksweb">
 	<tbody>
 		<tr>
-			<td>Type</td>
-			<td>Name</td>
-			<td>Definition</td>
+			<th>Type</th>
+			<th>Name</th>
+			<th>Definition</th>
 		</tr>
 		<tr>
 			<td>uint256</td>
@@ -437,9 +431,9 @@ https://github.com/OpenZeppelin/openzeppelin-contracts-upgradeable/blob/master/c
 <table class="iksweb">
 	<tbody>
 		<tr>
-			<td>Type</td>
-			<td>Name</td>
-			<td>Definition</td>
+			<th>Type</th>
+			<th>Name</th>
+			<th>Definition</th>
 		</tr>
 		<tr>
 			<td>uint256</td>
@@ -478,9 +472,9 @@ https://github.com/OpenZeppelin/openzeppelin-contracts-upgradeable/blob/master/c
 <table class="iksweb">
 	<tbody>
 		<tr>
-			<td>Type</td>
-			<td>Name</td>
-			<td>Definition</td>
+			<th>Type</th>
+			<th>Name</th>
+			<th>Definition</th>
 		</tr>
 		<tr>
 			<td>uint256</td>
@@ -506,9 +500,9 @@ amountLiquidity
 <table class="iksweb">
 	<tbody>
 		<tr>
-			<td>Type</td>
-			<td>Name</td>
-			<td>Definition</td>
+			<th>Type</th>
+			<th>Name</th>
+			<th>Definition</th>
 		</tr>
 		<tr>
 			<td>uint256</td>

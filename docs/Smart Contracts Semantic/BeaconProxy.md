@@ -1,10 +1,7 @@
----
-sidebar_position: 3
----
-### This contract implements a proxy that gets the implementation address for each call from a {UpgradeableBeacon}.
+#### This contract implements a proxy that gets the implementation address for each call from a {UpgradeableBeacon}.
 
 ### *Code*
-### [BeaconProxy.sol](https://github.com/dexe-network/dexe-asset-management/blob/js-tests-new-contract-with-pass/contracts/upgradeable/BeaconProxy.sol)
+### [```BeaconProxy.sol```](https://github.com/dexe-network/dexe-asset-management/blob/js-tests-new-contract-with-pass/contracts/upgradeable/BeaconProxy.sol)
 #### *Parameter's table*
 <table class="iksweb">
 	<tbody>

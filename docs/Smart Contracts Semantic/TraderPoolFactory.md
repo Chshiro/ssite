@@ -1,36 +1,32 @@
----
-sidebar_position: 5
----
-
 ### *Code*
-### [TraderPoolFactory.sol](https://github.com/dexe-network/dexe-asset-management/blob/js-tests-new-contract-with-pass/contracts/TraderPoolFactoryUpgradeable.sol)
+### [```TraderPoolFactory.sol```](https://github.com/dexe-network/dexe-asset-management/blob/js-tests-new-contract-with-pass/contracts/TraderPoolFactoryUpgradeable.sol)
 #### *Parameter's table*
 <table class="iksweb">
 	<tbody>
 		<tr>
-			<td>Type</td>
-			<td>Name</td>
-			<td>Definition</td>
+			<th>Type</th>
+			<th>Name</th>
+			<th>Definition</th>
 		</tr>
 		<tr>
 			<td>address</td>
 			<td>_admin</td>
-			<td>trader address</td>
+			<td>dexeAdmin</td>
 		</tr>
 		<tr>
 			<td>address</td>
 			<td>_traderContractBeaconAddress</td>
-			<td></td>
+			<td>traderContractAddress</td>
 		</tr>
 		<tr>
 			<td>address</td>
 			<td>_pltBeaconAddress</td>
-			<td></td>
+			<td>PoolLiquidityTokenAddress</td>
 		</tr>
 		<tr>
 			<td>address</td>
 			<td>_paramkeeper</td>
-			<td>Basic token</td>
+			<td>token, which is implemented from the white list in IParamStorage</td>
 		</tr>
 		<tr>
 			<td>address</td>
@@ -40,7 +36,7 @@ sidebar_position: 5
 		<tr>
 			<td>address</td>
 			<td>_weth</td>
-			<td>List of open positions</td>
+			<td>address of wrapped eth</td>
 		</tr>
 		<tr>
 			<td>address</td>
@@ -80,9 +76,9 @@ modifier onlyAdmin() {
 <table class="iksweb">
 	<tbody>
 		<tr>
-			<td>Type</td>
-			<td>Name</td>
-			<td>Definition</td>
+			<th>Type</th>
+			<th>Name</th>
+			<th>Definition</th>
 		</tr>
 		<tr>
 			<td>address</td>
@@ -136,4 +132,3 @@ modifier onlyAdmin() {
   function getDexeCommissionAddress() public view returns (address) {
   }
 ```
-![Dexe](https://gblobscdn.gitbook.com/assets%2F-Mhotv2zTrDxVpUVbvU0%2F-Miwdyu32BwsRDRdPJiT%2F-MiweFMaEVzGhOd4_f92%2Fimg02.png?alt=media&token=40949a95-cee2-43bd-96f2-02e704a8186a)

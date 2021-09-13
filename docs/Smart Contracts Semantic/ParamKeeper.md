@@ -1,16 +1,9 @@
----
-sidebar_position: 1
----
-
 ### *Code*
-### [ParamKeeper.sol](https://github.com/dexe-network/dexe-asset-management/blob/js-tests-new-contract-with-pass/contracts/ParamKeeper.sol)
+### [```ParamKeeper.sol```](https://github.com/dexe-network/dexe-asset-management/blob/js-tests-new-contract-with-pass/contracts/ParamKeeper.sol)
 
 #### *Parameter's table*
 <table class="iksweb">
 	<tbody>
-    <style type="td">
-
-</style>
 		<tr>
 			<th>Type</th>
             <th>Name</th>
@@ -80,3 +73,5 @@ function delistToken(address _token) public onlyManager {=
 
 }
 ```
+
+
